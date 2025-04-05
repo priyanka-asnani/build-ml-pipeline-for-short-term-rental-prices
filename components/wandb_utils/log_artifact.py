@@ -1,5 +1,6 @@
 import wandb
 import mlflow
+import pandas as pd
 
 
 def log_artifact(artifact_name, artifact_type, artifact_description, filename, wandb_run):
